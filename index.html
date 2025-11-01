@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Media Delivery Demo</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Progressive Media Delivery Demo</h1>
+    <p>
+      This page demonstrates progressive asset loading and simple playback
+      event handling in JavaScript.
+    </p>
+
+
+    <img src="assets/preview.gif" alt="Media preview" class="preview" loading="lazy" />
+
+    <div class="controls">
+      <button id="playBtn">▶️ Play Preview</button>
+
+      <label class="toggle">
+        <input type="checkbox" id="demoToggle" />
+        <span>Demo Mode</span>
+      </label>
+    </div>
+
+    <p class="note">
+      Tip: Enable Demo Mode to see redirect behavior for demo playback.
+    </p>
+
+
+  </div>
+</body>
+
+</html>
